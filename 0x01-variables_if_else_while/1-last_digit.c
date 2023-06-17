@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+/**
+  *main - Print The last digit of number
+  *and whether it is greater than 5, less than 6, or 0.
+  *
+  *return 0
+  */
 int main(void)
 {
 	int n;

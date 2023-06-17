@@ -1,5 +1,9 @@
 #include <stdio.h>
 #include <ctype.h>
+/**
+  *main -  prints all the numbers of base 16 in lowercase
+  *return 0
+  */
 int main(void)
 {
 	int digit;

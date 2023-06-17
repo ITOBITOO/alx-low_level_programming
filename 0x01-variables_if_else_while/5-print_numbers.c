@@ -1,5 +1,10 @@
 #include <stdio.h>
 #include <ctype.h>
+/**
+  *main - Print numbers
+  *
+  *return 0
+  */
 int main(void)
 {
 	int digit;

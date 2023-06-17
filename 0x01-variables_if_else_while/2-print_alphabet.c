@@ -1,5 +1,10 @@
 #include <stdio.h>
 #include <ctype.h>
+/**
+  *main - prints the alphabet in lowercase
+  *
+  *return : 0
+  */
 int main(void)
 {
 	int letter;

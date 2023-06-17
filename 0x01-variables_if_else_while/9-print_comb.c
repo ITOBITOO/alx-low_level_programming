@@ -1,5 +1,10 @@
 #include <stdio.h>
 #include <ctype.h>
+/**
+  *main - prints all possible combinations of single-digit numbers.
+  *separated by , followed by a space
+  *return 0
+  */
 int main(void)
 {
 	int digit;
