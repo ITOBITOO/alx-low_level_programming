@@ -1,14 +1,17 @@
 #include "main.h"
 
-void	ft_print_alphabet (void)
-{
-	char	 c;
+/**
+ * main - print the alphabet in lower case
+ * Return: 0
+ */
 
-	c = 'a';
-	while (c <= 'z')
+void print_alphabet(void)
+{
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
 	{
 		_putchar(c);
-		 c++;
 	}
 	_putchar('\n');
 }
