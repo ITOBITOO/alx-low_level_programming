@@ -1,9 +1,10 @@
 #include "main.h"
 /**
-*  reset_to_98 - takes the pointer and updates the value
-*  @n: int to check
-*  Owned By Bwave/Bright
-*  Return: 0 is success
+ * swap_int - swaps the value of int a and int b
+ * Owned by Bwave/Bright
+ * @a: first int
+ * @b: second int
+ * Return 0
 */
 void swap_int(int *a, int *b)
 {
