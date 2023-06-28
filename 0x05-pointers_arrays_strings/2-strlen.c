@@ -2,7 +2,9 @@
 #include <unistd.h>  
 int _strlen(char *s)
 {
-	//increak hgfdddfj bghjhjhgfghfjfj
+	/*
+	 *increak hgfdddfj bghjhjhgfghfjfj
+	 */
 	int a = 0;
 
 	for (; *s++;)
