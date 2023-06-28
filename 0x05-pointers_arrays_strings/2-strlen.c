@@ -6,14 +6,11 @@
  * Description: this will return the length of a string
  * Return: 0 is success
  */
-int _strlen(char *s);
+int _strlen(char *s)
 {
-	int	i;
+	int a = 0;
 
-	i = 0;
-	while (s[i] != '\0')
-	{
-		write (1, &s[i], 1);
-		i++;
-	}	
+	for (; *s++;)
+		a++;
+	return (a);
 }
