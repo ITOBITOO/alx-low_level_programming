@@ -1,14 +1,22 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
-   * main - write a prog that print the num of arg passed into it
-    * @argc: count
-     * @argv: value
-      * Return: 0
-       */
+   * main - prints the number of arguments passed into it
+    * @argc: argument count to number the arguments
+     * @argv: argument vector
+      *
+       * Return: 0.
+        */
 
-int main(int argc, char __attribute__((unused)) *argv[])
+int main(int argc, char *argv[])
 {
-	printf("%d\n", argc - 1);
+	int counter;
+
+	for (counter = 0; counter < argc;)
+	{
+		counter++;
+		(*argv)++;
+	}
+	printf("%d\n", counter - 1);
 	return (0);
 }
