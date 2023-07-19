@@ -1,12 +1,11 @@
-nclude "dog.h"
+#include "dog.h"
 #include <stdio.h>
 #include <stdlib.h>
 
 /**
-   * print_dog - Prints a struct dog.
-    * @d: The struct dog to be printed.
-     */
-
+  * print_dog - Prints a struct dog.
+  * @d: The struct dog to be printed.
+  */
 void print_dog(struct dog *d)
 {
 	if (d == NULL)
